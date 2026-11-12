@@ -1,0 +1,66 @@
+{
+  "model": "gpt-4.1-mini",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a concise assistant. Use facts the user gave earlier in this conversation. If a fact was not provided in this conversation, say you do not know."
+    },
+    {
+      "role": "user",
+      "content": "My name is Arun."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Arun."
+    },
+    {
+      "role": "user",
+      "content": "What is my name?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Arun."
+    },
+    {
+      "role": "user",
+      "content": "I live in Chennai."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it. You live in Chennai."
+    },
+    {
+      "role": "user",
+      "content": "Which city do I live in?"
+    },
+    {
+      "role": "assistant",
+      "content": "You live in Chennai."
+    },
+    {
+      "role": "user",
+      "content": "My favorite color is blue."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll remember that your favorite color is blue."
+    },
+    {
+      "role": "user",
+      "content": "What is my favorite color?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your favorite color is blue."
+    }
+  ],
+  "token_counts_after_each_turn": [
+    59,
+    77,
+    98,
+    118,
+    141,
+    161
+  ],
+  "token_count_method": "tiktoken"
+}
